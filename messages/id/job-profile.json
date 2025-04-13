@@ -1,0 +1,145 @@
+{
+  "job-profile": {
+    "master-position": {
+      "card": {
+        "title": "Master Data Profil Jabatan",
+        "desc": {
+          "title1": "Kompetensi Kluster adalah komponen soft skill yang melekat kepada semua pegawai. Anda cukup membuat data induknya di halaman ini, lalu kemudian menyalinnya sekaligus ke periode terpilih menggunakan tombol di bawah ini supaya bisa langsung digunakan di kamus kompetensi.",
+          "title2": "Tip: Proses ini akan menimpa data kompetensi kluster di periode yang sama, jika misalnya sudah ada di dalam sistem, jadi harap agar anda berhati-hati."
+        }
+      },
+      "filter": {
+        "label": "Periode Data Kinerja"
+      },
+      "table": {
+        "tableHead": [
+          {
+            "nameField": "Name",
+            "title": "Kluster Kompetensi"
+          },
+          {
+            "nameField": "Weight",
+            "title": "Bobot"
+          },
+          {
+            "nameField": "IsAppraisal",
+            "title": "Sebagai Item Penilaian?"
+          },
+          {
+            "nameField": "action",
+            "title": "Aksi"
+          }
+        ]
+      },
+      "modal": {
+        "title": "Kluster Kompetensi",
+        "sort": {
+          "title": "Pengurutan Susunan Element",
+          "info": "Gunakan mouse untuk melakukan drag & drop terhadap elemen"
+        },
+        "copy": {
+          "title": "Salin Data Dari Periode Lain",
+          "info": "Pilih periode yang ingin disalin"
+        }
+      },
+      "form": {
+        "name": "Nama",
+        "weight": "Bobot",
+        "isAppraisal": {
+          "title": "Sebagai Item Penilaian?",
+          "yes": "Ya",
+          "no": "Tidak"
+        }
+      }
+    },
+    "competency-dictionary": {
+      "card": {
+        "title": "Kamus Kompetensi"
+      },
+      "filter": {
+        "label": "Periode Data Kinerja",
+        "label2": "Kluster Kompetensi"
+      },
+      "table": {
+        "tableHead": [
+          {
+            "nameField": "Name",
+            "title": "Item Kompetensi"
+          },
+          {
+            "nameField": "Definition",
+            "title": "Deskripsi"
+          },
+
+          {
+            "nameField": "action",
+            "title": "Aksi"
+          }
+        ],
+        "tableHeadChildren": [
+          {
+            "nameField": "KeyBehavior",
+            "title": "Perilaku Utama"
+          },
+          {
+            "nameField": "ProfLevel1",
+            "title": "Level Kefasihan 1"
+          },
+          {
+            "nameField": "ProfLevel2",
+            "title": "Level Kefasihan 2"
+          },
+          {
+            "nameField": "ProfLevel3",
+            "title": "Level Kefasihan 3"
+          },
+          {
+            "nameField": "ProfLevel4",
+            "title": "Level Kefasihan 4"
+          },
+          {
+            "nameField": "ProfLevel5",
+            "title": "Level Kefasihan 5"
+          },
+          {
+            "nameField": "action",
+            "title": "Aksi"
+          }
+        ]
+      },
+      "modal": {
+        "add": {
+          "title": "Kamus Kompetensi"
+        },
+        "addChild": {
+          "title": "Perilaku Utama & Level Kefasihan"
+        }
+      },
+      "form": {
+        "name": "Nama",
+        "definition": "Deskripsi",
+        "KeyBehavior": "Perilaku Utama",
+        "ProfLevel1": "Level Kefasihan 1",
+        "ProfLevel2": "Level Kefasihan 2",
+        "ProfLevel3": "Level Kefasihan 3",
+        "ProfLevel4": "Level Kefasihan 4",
+        "ProfLevel5": "Level Kefasihan 5"
+      }
+    },
+    "competency-profile": {
+      "card": {
+        "title": "Profil Kompetensi"
+      },
+      "filter": {
+        "label": "Periode Data Kinerja",
+        "label2": "Pilih Unit Kerja"
+      },
+      "modal": {
+        "select-unit-work": {
+          "title": "Pilih Unit Kerja",
+          "button": "Pilih"
+        }
+      }
+    }
+  }
+}

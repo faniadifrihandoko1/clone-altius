@@ -1,0 +1,39 @@
+{
+  "category": {
+    "title": "Data Category",
+    "desc": {
+      "subtitle1": "The following is the master data of various categories related to an employee's data record (such as employment status, kinship and so on). Please make sure you complete this data before adding employee data to the system.",
+      "subtitle2": "Anda dapat mengubahnya kembali setiap saat dibutuhkan, namun perlu diketahui bahwa hal tersebut dapat mempengaruhi data pegawai yang sudah sebelumnya ada di dalam sistem, jadi harap agar berhati-hati."
+    },
+    "tables": {
+      "employmentStatus": {
+        "title": "Employment Status",
+        "desc": "List of employment statuses used in the organization."
+      },
+      "relationshipType": {
+        "title": "Relationship Type",
+        "desc": "Types of familial or legal relationships."
+      },
+      "educationLevel": {
+        "title": "Education Level",
+        "desc": "Different levels of education attained by employees."
+      },
+      "terminationReason": {
+        "title": "Termination Reason",
+        "desc": "Reasons why employees leave the organization."
+      },
+      "workUnitLevel": {
+        "title": "Work Unit Level",
+        "desc": "Hierarchy levels of organizational units."
+      },
+      "identityType": {
+        "title": "Identity Type",
+        "desc": "Types of identification used for employees."
+      },
+      "religion": {
+        "title": "Religion",
+        "desc": "List of religions registered in the organization."
+      }
+    }
+  }
+}

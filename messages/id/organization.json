@@ -1,0 +1,243 @@
+{
+  "organization": {
+    "org-structure": {
+      "card": {
+        "title": "Struktur Organisasi",
+        "desc": {
+          "title1": "Data induk struktur organisasi ini merupakan basis bagi scorecard kinerja organisasi & kinerja pegawai.",
+          "title2": "Tip: Anda dapat melakukan drag & drop dengan tombol mouse untuk memindahkan posisi suatu item dari satu tempat ke tempat lainnya."
+        }
+      },
+      "filter": {
+        "label": "Periode Data Kinerja :"
+      },
+      "table": {
+        "tableHead": [
+          { "nameField": "NameAsWorkUnit", "title": "Nama Unit Kerja" },
+          { "nameField": "NameAsJobTitle", "title": "Nama Unit Kerja" },
+          { "nameField": "IncumbentFullName", "title": "Dijabat Oleh" },
+          { "nameField": "AssessorName", "title": "Penilai" },
+          { "nameField": "action", "title": "Aksi" }
+        ],
+        "action": {
+          "add": "Tambah Unit Kerja",
+          "sort": "Pengurutan Susunan Unit Kerja",
+          "delete": "Hapus Unit Kerja",
+          "employee": "Pegawai Untuk Jabatan ini",
+          "label": "Label Jabatan",
+          "select": "Pilih"
+        }
+      },
+      "modal": {
+        "add": {
+          "title": " Unit Kerja",
+          "form": {
+            "nameWorkUnit": "Nama Unit Kerja",
+            "workUnitLevel": "Level Unit Kerja",
+            "nameJobTitle": "Nama Jabatan",
+            "positionLevel": "Level Posisi",
+            "officeLocation": "Lokasi Kantor",
+            "division": "Divisi",
+            "department": "Departemen",
+            "setKPI": {
+              "label": "Sets KPI",
+              "options": ["Organisasi & Pegawai", "Pegawai"]
+            }
+          }
+        },
+        "sort": {
+          "title": "Pengurutan Susunan Unit Kerja",
+          "info": "Gunakan mouse untuk melakukan drag & drop terhadap elemen"
+        },
+        "employeePosition": {
+          "title": "Pegawai untuk Jabatan ini",
+          "form": {
+            "performancePeriod": "Periode Kinerja",
+            "positionName": "Nama Jabatan",
+            "employeeName": "Nama Pegawai"
+          }
+        },
+        "labelPosition": {
+          "title": "Label Jabatan",
+          "form": {
+            "typeLabel": "Tipe Label",
+            "contents": "Isi"
+          },
+          "modal": {
+            "add": {
+              "title": "Label Jabatan",
+              "form": {
+                "typeLabel": "Tipe Label",
+                "contents": "Isi"
+              }
+            }
+          },
+          "table": {
+            "tableHead": [
+              { "nameField": "label", "title": "Label" },
+              { "nameField": "content", "title": "Isi" },
+
+              { "nameField": "action", "title": "Aksi" }
+            ]
+          }
+        },
+        "confirmMove": {
+          "title": "Konfirmasi Pemindahan Posisi Item",
+          "desc": "Apakah anda yakin untuk memindahkan item <strong>{name}</strong> ini?",
+          "button": {
+            "yes": "Ya",
+            "no": "Batal"
+          }
+        },
+        "copyOtherPeriod": {
+          "title": "Salin Data Periode Lain",
+          "info": "Pilih suatu item periode sebagai sumber data."
+        }
+      }
+    },
+    "performance-period": {
+      "card": {
+        "title": "Periode Kinerja"
+      },
+      "modal": {
+        "add": {
+          "title": "Periode Kinerja",
+          "form": {
+            "name": "Periode Kinerja",
+            "startDate": "Periode Kinerja",
+            "endDate": "Sampai Tanggal",
+            "desc": "Keterangan"
+          }
+        }
+      },
+      "table": {
+        "tableHead": [
+          { "nameField": "name", "title": "Periode Kinerja" },
+          { "nameField": "startDate", "title": "Mulai" },
+          { "nameField": "endDate", "title": "Selesai" },
+          { "nameField": "action", "title": "Aksi" }
+        ]
+      }
+    },
+    "user-roles": {
+      "card": {
+        "title": "Peran & Akun Pengguna",
+        "desc": {
+          "title1": "Halaman ini digunakan untuk mengelola peran dan akun pengguna dalam sistem. Peran menentukan hak akses pengguna terhadap fitur-fitur yang tersedia. Akun pengguna mencakup informasi login serta keterkaitannya dengan pegawai di dalam sistem. Pastikan pengaturan peran dan akun sesuai dengan kebutuhan organisasi untuk menjaga keamanan serta kemudahan akses.",
+          "title2": "Tip: Anda dapat melakukan drag & drop dengan tombol mouse untuk memindahkan posisi suatu item dari satu tempat ke tempat lainnya."
+        }
+      },
+      "modal": {
+        "select": {
+          "title": "Pilih Akun Pegawai Sebagai Anggota Peran ini",
+          "subtitle": "Peran terpilih: <b>Peran HR Payroll</b>",
+          "subtitle2": {
+            "member": "Anggota",
+            "notMember": "Non-Anggota"
+          }
+        }
+      },
+      "tables": {
+        "userRole": {
+          "title": "Peran Pengguna",
+          "tableHead": [
+            { "nameField": "Name", "title": "Nama" },
+            { "nameField": "Description", "title": "Deskripsi" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+
+        "userAccount": {
+          "title": "Akun Login Pengguna",
+          "tableHead": [
+            { "nameField": "Email", "title": "Alamat Email" },
+            {
+              "nameField": "LinkedtoEmployee",
+              "title": "Terhubung ke Pegawai"
+            },
+            { "nameField": "IsExternal", "title": "Akun Eksternal" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        }
+      },
+      "create": {
+        "userRole": {
+          "title": "Tambah Data Peran",
+          "form": {
+            "name": "Nama",
+            "desc": "Deskripsi",
+            "pageDefault": "Halaman Default pasca login",
+            "adminPermission": "Hak Akses Per-halaman sebagai Admin",
+            "employeePermission": "Hak Akses Per-halaman sebagai Pegawai"
+          }
+        },
+        "userAccount": {
+          "title": " Akun Login",
+          "form": {
+            "email": "Alamat Email",
+            "password": "Password (akan menimpa password eksiting)"
+          }
+        },
+
+        "tables": {
+          "adminPermission": {
+            "title": "Hak Akses Per-halaman sebagai Admin",
+            "tableHead": [
+              { "nameField": "MenuCaption", "title": "Nama" },
+              { "nameField": "permission", "title": "Berikan Akses ?" }
+            ]
+          },
+          "employeePermission": {
+            "title": "Hak Akses Per-halaman sebagai Pegawai",
+            "tableHead": [
+              { "nameField": "MenuCaption", "title": "Nama" },
+              { "nameField": "permission", "title": "Berikan Akses ?" }
+            ]
+          }
+        }
+      },
+      "edit": {
+        "userRole": {
+          "title": "Edit Data Peran",
+          "form": {
+            "name": "Nama",
+            "desc": "Deskripsi",
+            "pageDefault": "Halaman Default pasca login",
+            "adminPermission": "Hak Akses Per-halaman sebagai Admin",
+            "employeePermission": "Hak Akses Per-halaman sebagai Pegawai"
+          }
+        },
+        "tables": {}
+      }
+    },
+    "general-news": {
+      "card": {
+        "title": "Data Berita Umum",
+        "desc": " Halaman ini digunakan untuk mengelola berita umum yang berkaitan dengan kebijakan dan informasi penting dalam organisasi. Pastikan berita yang ditambahkan selalu relevan dan up-to-date untuk memastikan komunikasi yang efektif kepada semua pengguna."
+      },
+      "table": {
+        "tableHead": [
+          { "nameField": "Title", "title": "Judul" },
+          { "nameField": "CreatedOn", "title": "Tanggal Mulai" },
+          { "nameField": "action", "title": "Aksi" }
+        ]
+      },
+      "create": {
+        "title": "Tambah Berita Umum",
+        "form": {
+          "title": "Judul",
+          "abstract": "Abstraksi",
+          "content": "Isi Berita"
+        }
+      },
+      "edit": {
+        "title": "Edit Berita Umum",
+        "form": {
+          "title": "Judul",
+          "abstract": "Abstraksi",
+          "content": "Isi Berita"
+        }
+      }
+    }
+  }
+}

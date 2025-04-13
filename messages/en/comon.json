@@ -1,0 +1,376 @@
+{
+  "comon": {
+    "modal": {
+      "delete": {
+        "title": "Delete Data",
+        "message": "Are you sure you want to delete <strong>{name}</strong>?",
+        "button": {
+          "yes": "Delete",
+          "no": "Cancel"
+        }
+      },
+      "edit": {
+        "title": "Edit Data {name}",
+        "button": {
+          "yes": "Save",
+          "no": "Cancel"
+        }
+      },
+      "add": {
+        "title": "Add Data {name}",
+        "button": {
+          "title": "Add",
+          "yes": "Save",
+          "no": "Cancel"
+        }
+      }
+    },
+    "tables": {
+      "action": {
+        "add": "Add",
+        "sort": "Sort",
+        "delete": "Delete",
+        "edit": "Edit",
+        "select": "Select Employee"
+      }
+    },
+    "textField": {
+      "label": "Search {name}",
+      "placeholder": "Input {label}.."
+    },
+    "textFieldSearch": {
+      "placeholder": "Search.."
+    },
+    "validation": {
+      "required": "This field is required."
+    },
+    "autocomplete": {
+      "placeholder": "-- select --"
+    },
+    "pagination": {
+      "entriesText": "Showing {startEntry} to {endEntry} of {totalEntries} entries",
+      "limit": "Per Page"
+    },
+    "button": {
+      "buttonAdd": "Add",
+      "buttonEdit": "Edit",
+      "buttonDelete": "Delete",
+      "buttonSelect": "Select",
+      "buttonEmployee": "Employee",
+      "buttonLabel": "Label"
+    },
+    "menu": [
+      {
+        "idmenu": "dashboard-001",
+        "path": "/admin/dashboard",
+        "name": "Dashboard",
+        "icon": "material-symbols-light:dashboard",
+        "is_locked_for_trial": false
+      },
+      {
+        "idmenu": "organization-002",
+        "path": "/organization",
+        "name": "Organization",
+        "icon": "material-symbols-light:business-center",
+        "is_locked_for_trial": false,
+        "children": [
+          {
+            "idmenu": "performance-period-003",
+            "path": "/organization/performance-period",
+            "name": "Performance Period Data",
+            "icon": "material-symbols-light:calendar-month",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "org-structure-004",
+            "path": "/organization/organizational-structure",
+            "name": "Organizational Structure",
+            "icon": "material-symbols-light:account-tree",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "user-roles-005",
+            "path": "/organization/user-roles-and-accounts",
+            "name": "User Roles & Accounts",
+            "icon": "material-symbols-light:people",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "general-news-006",
+            "path": "/organization/general-news",
+            "name": "General News",
+            "icon": "material-symbols-light:article",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "import-biodata-007",
+            "path": "/organization/import-biodata",
+            "name": "Import Biodata",
+            "icon": "material-symbols-light:upload",
+            "is_locked_for_trial": false
+          }
+        ]
+      },
+      {
+        "idmenu": "recruitment-admin-008",
+        "path": "/recruitment-admin",
+        "name": "Recruitment (Admin)",
+        "icon": "material-symbols-light:work",
+        "is_locked_for_trial": false,
+        "children": [
+          {
+            "idmenu": "job-request-009",
+            "path": "/recruitment-admin/job-request",
+            "name": "Job Request",
+            "icon": "material-symbols-light:request-quote",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "candidate-list-010",
+            "path": "/recruitment-admin/candidate-list",
+            "name": "Candidate List",
+            "icon": "material-symbols-light:people-alt",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "template-pkwt-011",
+            "path": "/recruitment-admin/pkwt-template",
+            "name": "PKWT Template",
+            "icon": "material-symbols-light:description",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "new-employee-012",
+            "path": "/recruitment-admin/generate-new-employee",
+            "name": "Generate New Employee",
+            "icon": "material-symbols-light:person-add",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "offering-letter-template-013",
+            "path": "/recruitment-admin/offering-letter-template",
+            "name": "Offering Letter Template",
+            "icon": "material-symbols-light:email",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "code-of-conduct-template-014",
+            "path": "/recruitment-admin/code-of-conduct-template",
+            "name": "Code of Conduct Template",
+            "icon": "material-symbols-light:rule",
+            "is_locked_for_trial": false
+          }
+        ]
+      },
+      {
+        "idmenu": "job-profile-015",
+        "path": "/job-profile",
+        "name": "Job Profile",
+        "icon": "material-symbols-light:badge",
+        "is_locked_for_trial": false,
+        "children": [
+          {
+            "idmenu": "master-data-profile-016",
+            "path": "/job-profile/master-data-profile",
+            "name": "Master Data Profile",
+            "icon": "material-symbols-light:folder",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "competency-dictionary-017",
+            "path": "/job-profile/competency-dictionary",
+            "name": "Competency Dictionary",
+            "icon": "material-symbols-light:book",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "competency-profile-018",
+            "path": "/job-profile/competency-profile",
+            "name": "Competency Profile",
+            "icon": "material-symbols:quick-reference-all",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "evaluator-identification-018",
+            "path": "/job-profile/evaluator-identification",
+            "name": "Evaluator Identification",
+            "icon": "material-symbols-light:person-search",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "competency-assessment-recap-019",
+            "path": "/job-profile/competency-assessment-recap",
+            "name": "Competency Assessment Recap",
+            "icon": "carbon:summary-kpi",
+            "is_locked_for_trial": false
+          }
+        ]
+      },
+      {
+        "idmenu": "admin-settings-020",
+        "path": "/admin/settings",
+        "name": "Settings",
+        "icon": "material-symbols-light:settings",
+        "is_locked_for_trial": false,
+        "children": [
+          {
+            "idmenu": "general-hr-021",
+            "path": "/admin/settings/general-hr",
+            "name": "General HR",
+            "icon": "material-symbols-light:group",
+            "is_locked_for_trial": false,
+            "children": [
+              {
+                "idmenu": "category-022",
+                "path": "/admin/settings/general-hr/category",
+                "name": "Category",
+                "icon": "material-symbols-light:category",
+                "is_locked_for_trial": false
+              },
+              {
+                "idmenu": "references-023",
+                "path": "/admin/settings/general-hr/references",
+                "name": "References",
+                "icon": "material-symbols-light:menu-book",
+                "is_locked_for_trial": false
+              },
+              {
+                "idmenu": "master-data-hr-024",
+                "path": "/admin/settings/general-hr/master-data",
+                "name": "HR Master Data",
+                "icon": "material-symbols-light:database",
+                "is_locked_for_trial": false
+              }
+            ]
+          },
+          {
+            "idmenu": "performance-foundation-025",
+            "path": "/settings/performance-foundation",
+            "name": "Performance Foundation",
+            "icon": "material-symbols-light:flag",
+            "is_locked_for_trial": false,
+            "children": [
+              {
+                "idmenu": "period-element-026",
+                "path": "/settings/performance-foundation/period-element",
+                "name": "Period Element",
+                "icon": "material-symbols-light:event",
+                "is_locked_for_trial": false
+              },
+              {
+                "idmenu": "element-type-027",
+                "path": "/settings/performance-foundation/element-type",
+                "name": "Element Type",
+                "icon": "material-symbols-light:list-alt",
+                "is_locked_for_trial": false
+              },
+              {
+                "idmenu": "scoring-method-028",
+                "path": "/settings/performance-foundation/scoring-method",
+                "name": "Scoring Method",
+                "icon": "material-symbols-light:bar-chart",
+                "is_locked_for_trial": false
+              },
+              {
+                "idmenu": "measurement-unit-029",
+                "path": "/settings/performance-foundation/measurement-unit",
+                "name": "Measurement Unit",
+                "icon": "material-symbols-light:straighten",
+                "is_locked_for_trial": false
+              },
+              {
+                "idmenu": "assessment-weight-030",
+                "path": "/settings/performance-foundation/assessment-weight",
+                "name": "Assessment Weight",
+                "icon": "material-symbols-light:balance",
+                "is_locked_for_trial": false
+              },
+              {
+                "idmenu": "performance-predicate-031",
+                "path": "/settings/performance-foundation/performance-predicate",
+                "name": "Performance Predicate",
+                "icon": "material-symbols-light:stars",
+                "is_locked_for_trial": false
+              }
+            ]
+          },
+          {
+            "path": "/admin/settings/scorecard-access",
+            "name": "Organizational Scorecard Access",
+            "icon": "material-symbols-light:score",
+            "is_locked_for_trial": false,
+            "idmenu": "scorecard-access-032"
+          },
+          {
+            "path": "/admin/settings/default-data",
+            "name": "Default Data",
+            "icon": "material-symbols-light:dataset",
+            "is_locked_for_trial": false,
+            "idmenu": "default-data-033"
+          },
+          {
+            "path": "/admin/settings/payroll-settings",
+            "name": "Payroll Settings",
+            "icon": "material-symbols-light:attach-money",
+            "is_locked_for_trial": false,
+            "idmenu": "payroll-settings-034"
+          },
+          {
+            "path": "/admin/settings/approval-level",
+            "name": "Approval Level",
+            "icon": "material-symbols-light:approval",
+            "is_locked_for_trial": false,
+            "idmenu": "approval-level-035"
+          },
+          {
+            "path": "/admin/settings/accurate-settings",
+            "name": "Accurate Settings",
+            "icon": "material-symbols-light:settings",
+            "is_locked_for_trial": false,
+            "idmenu": "accurate-settings-036"
+          },
+          {
+            "path": "/admin/settings/claim-balance",
+            "name": "Claim Balance",
+            "icon": "material-symbols-light:account-balance-wallet",
+            "is_locked_for_trial": false,
+            "idmenu": "claim-balance-037"
+          },
+          {
+            "path": "/admin/settings/leave-balance-adjustment",
+            "name": "Leave Balance Adjustment",
+            "icon": "material-symbols-light:event-available",
+            "is_locked_for_trial": false,
+            "idmenu": "leave-balance-adjustment-038"
+          },
+          {
+            "path": "/admin/settings/payroll-location-settings",
+            "name": "Payroll Location Settings",
+            "icon": "material-symbols-light:location-on",
+            "is_locked_for_trial": false,
+            "idmenu": "payroll-location-settings-039"
+          },
+          {
+            "path": "/admin/settings/payroll-formula",
+            "name": "Payroll Formula",
+            "icon": "material-symbols-light:functions",
+            "is_locked_for_trial": false,
+            "idmenu": "payroll-formula-040"
+          }
+        ]
+      }
+    ],
+    "custom-component": {
+      "select-member": {
+        "title": {
+          "members": "Members",
+          "non-members": "Non Members"
+        },
+        "tooltip": {
+          "arrowBack": "Move all to the left",
+          "arrowForward": "Move all to the right"
+        }
+      }
+    }
+  }
+}

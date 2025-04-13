@@ -1,0 +1,145 @@
+{
+  "job-profile": {
+    "master-position": {
+      "card": {
+        "title": "Master Data Job Profile",
+        "desc": {
+          "title1": "Cluster Competence is a soft skill component that is inherent to all employees. You simply create the master data on this page, then copy it at once to the selected period using the button below so that it can be used directly in the competency dictionary.",
+          "title2": "Tip: This process will overwrite cluster competency data from the same period, if it already exists in the system, so please be careful."
+        }
+      },
+      "filter": {
+        "label": "Data Period Performance"
+      },
+      "table": {
+        "tableHead": [
+          {
+            "nameField": "Name",
+            "title": "Cluster Competence"
+          },
+          {
+            "nameField": "Weight",
+            "title": "Weight"
+          },
+          {
+            "nameField": "IsAppraisal",
+            "title": "As Appraisal Item?"
+          },
+          {
+            "nameField": "action",
+            "title": "Action"
+          }
+        ]
+      },
+      "modal": {
+        "title": "Cluster Competence",
+        "sort": {
+          "title": "Ordering of elements",
+          "info": "Use the mouse to drag and drop elements."
+        },
+        "copy": {
+          "title": "copy data from another period",
+          "info": "Select the period you want to copy"
+        }
+      },
+      "form": {
+        "name": "Name",
+        "weight": "Weight",
+        "isAppraisal": {
+          "title": "As Appraisal Item?",
+          "yes": "Yes",
+          "no": "No"
+        }
+      }
+    },
+    "competency-dictionary": {
+      "card": {
+        "title": "Competency Dictionary"
+      },
+      "filter": {
+        "label": "Data Period Performance",
+        "label2": "Competency Cluster"
+      },
+      "table": {
+        "tableHead": [
+          {
+            "nameField": "Name",
+            "title": "Item Competence"
+          },
+          {
+            "nameField": "Definition",
+            "title": "Description"
+          },
+
+          {
+            "nameField": "action",
+            "title": "Action"
+          }
+        ],
+        "tableHeadChildren": [
+          {
+            "nameField": "KeyBehavior",
+            "title": "Main Behavior"
+          },
+          {
+            "nameField": "ProfLevel1",
+            "title": "fluency level 1"
+          },
+          {
+            "nameField": "ProfLevel2",
+            "title": "fluency level 2"
+          },
+          {
+            "nameField": "ProfLevel3",
+            "title": "fluency level 3"
+          },
+          {
+            "nameField": "ProfLevel4",
+            "title": "fluency level 4"
+          },
+          {
+            "nameField": "ProfLevel5",
+            "title": "fluency level 5"
+          },
+          {
+            "nameField": "action",
+            "title": "Action"
+          }
+        ]
+      },
+      "modal": {
+        "add": {
+          "title": "Dictionary Competency"
+        },
+        "addChild": {
+          "title": "Main Behavior & fluency level"
+        }
+      },
+      "form": {
+        "name": "Name",
+        "definition": "Description",
+        "KeyBehavior": "Main Behavior",
+        "ProfLevel1": "fluency level 1",
+        "ProfLevel2": "fluency level 2",
+        "ProfLevel3": "fluency level 3",
+        "ProfLevel4": "fluency level 4",
+        "ProfLevel5": "fluency level 5"
+      }
+    },
+    "competency-profile": {
+      "card": {
+        "title": "Competency Profile"
+      },
+      "filter": {
+        "label": "Data Period Performance",
+        "label2": "Select Work Unit"
+      },
+      "modal": {
+        "select-unit-work": {
+          "title": "Select Work Unit",
+          "button": "Select"
+        }
+      }
+    }
+  }
+}

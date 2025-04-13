@@ -1,0 +1,134 @@
+{
+  "recruitment": {
+    "job-request": {
+      "card": {
+        "title": "Job Request"
+      },
+
+      "table": {
+        "tableHead": [
+          { "nameField": "SubmissionNumber", "title": "Submission Number" },
+          { "nameField": "DepartementName", "title": "Departement" },
+          {
+            "nameField": "SubmissionTypeDescription",
+            "title": "Submission Type"
+          },
+          { "nameField": "JobName", "title": "Job " },
+          { "nameField": "SubmissionStatusDescription", "title": "Status" },
+          { "nameField": "action", "title": "Action" }
+        ],
+        "tableHeadChildren": [
+          {
+            "nameField": "ProspectiveEmployeeName",
+            "title": "Prospective Employee Name"
+          },
+          {
+            "nameField": "ProspectiveEmployeeIdentityNumber",
+            "title": "Identity Number"
+          },
+          {
+            "nameField": "InterviewDate",
+            "title": "Interview Date"
+          },
+          { "nameField": "InterviewFormTypeName", "title": "Interview Type" },
+          { "nameField": "InterViewerName", "title": "Interviewer" },
+          { "nameField": "InterviewFormStatus", "title": "Status" }
+        ]
+      },
+      "form": {
+        "candidatEmployee": "Candidate Employee",
+        "identity": "Identity Number",
+        "address": "Address",
+        "departemen": "Departemen",
+        "forNeeds": "For Needs",
+        "interviewer": "Interviewer",
+        "interviewDate": "Interview Date",
+        "interviewTo": "Interview To",
+        "noteInterview": "Note Interview"
+      },
+      "create": {
+        "title": "Interview Candidate Employee"
+      }
+    },
+    "candidat-employee": {
+      "card": {
+        "title": "Candidat Employee"
+      },
+      "tab": {
+        "tab-data": "Data",
+        "tab-condition": "Condition",
+        "tab-task": "Task & Responsibility"
+      },
+      "form": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "Email": "Email",
+        "IdentityNumber": "Identity Number",
+        "MobilePhoneNumber": "Handphone Number",
+        "PlaceOfBirth": "Place of Birth",
+        "BirthDate": "Birth Date",
+        "IdentityType": "Identity Type",
+        "TerminatedDate": "Terminated Date",
+        "IdentityAddress": "Identity Address",
+        "HomeAddress": "Home Address",
+        "Religion": "Religion",
+        "EmpBloodType": "Blood Type",
+        "EmpMaritalStatus": "Marital Status",
+        "Gender": "Gender",
+        "Departement": "Departemen",
+        "CheckAssessment": "Check Assessment"
+      },
+      "table": {
+        "tableHead": [
+          { "nameField": "FullName", "title": "Name" },
+          { "nameField": "IdentityNumber", "title": "Identity Number" },
+          {
+            "nameField": "JobName",
+            "title": "For Position"
+          },
+          {
+            "nameField": "ProspectiveEmployeeStatusName",
+            "title": "Status Candidat"
+          },
+
+          { "nameField": "action", "title": "Action" }
+        ]
+      }
+    },
+    "pkwt-template": {
+      "card": {
+        "title": "PKWT Template"
+      }
+    },
+    "generate-new-employee": {
+      "card": {
+        "title": "Generate New Employee"
+      },
+      "table": {
+        "tableHead": [
+          { "nameField": "SubmissionNumber", "title": "Submission Number" },
+          { "nameField": "JobName", "title": "For Position" },
+          {
+            "nameField": "FullName",
+            "title": "Name"
+          },
+          {
+            "nameField": "IdentityNumber",
+            "title": "Identity Number"
+          },
+          { "nameField": "LaborDemandStatusName", "title": "Status" }
+        ]
+      }
+    },
+    "offering-letter-template": {
+      "card": {
+        "title": "Offering Letter Template"
+      }
+    },
+    "conduct-template": {
+      "card": {
+        "title": "Code of Conduct Template"
+      }
+    }
+  }
+}

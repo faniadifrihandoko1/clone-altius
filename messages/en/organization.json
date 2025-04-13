@@ -1,0 +1,252 @@
+{
+  "organization": {
+    "org-structure": {
+      "card": {
+        "title": "Organizational Structure",
+        "desc": {
+          "title1": "This master data of organizational structure is the basis for organizational performance scorecard & employee performance.",
+          "title2": "Tip: You can drag & drop with the mouse button to move an item's position from one place to another."
+        }
+      },
+      "filter": {
+        "label": "Data Period Performance"
+      },
+      "table": {
+        "tableHead": [
+          { "nameField": "NameAsWorkUnit", "title": "Name As Work Unit" },
+          { "nameField": "NameAsJobTitle", "title": "Name As Job Title" },
+          { "nameField": "IncumbentFullName", "title": "Incumbent Full Name" },
+          { "nameField": "AssessorName", "title": "Assessor Name" },
+          { "nameField": "action", "title": "Action" }
+        ],
+        "action": {
+          "add": "Add Work Unit",
+          "sort": "Sort Work Unit",
+          "delete": "Delete Work Unit",
+          "employee": "employee for this Position",
+          "label": "Label Position",
+          "select": "Select"
+        }
+      },
+      "modal": {
+        "add": {
+          "title": "Work Unit",
+          "form": {
+            "nameWorkUnit": "Name Work Unit",
+            "workUnitLevel": "Work Unit Level",
+            "nameJobTitle": "Name Job Title",
+            "positionLevel": "Position Level",
+            "officeLocation": "Office Location",
+            "division": "Division",
+            "department": "Department",
+            "setKPI": {
+              "label": "Set KPI",
+              "options": ["Organization & Employee", "Employee"]
+            }
+          }
+        },
+        "sort": {
+          "title": "Sort Work Unit",
+          "info": "Use mouse to perform drag & drop"
+        },
+        "employeePosition": {
+          "title": "Employee Position",
+          "form": {
+            "performancePeriod": "Performance Period",
+            "positionName": "Position Name",
+            "employeeName": "Employee Name"
+          }
+        },
+        "labelPosition": {
+          "title": "Position Label",
+          "form": {
+            "typeLabel": "Type Label",
+            "contents": "Contents"
+          },
+          "modal": {
+            "add": {
+              "title": "Add Label",
+              "form": {
+                "typeLabel": "Type Label",
+                "contents": "Contents"
+              }
+            }
+          },
+          "table": {
+            "tableHead": [
+              { "nameField": "label", "title": "Label" },
+              { "nameField": "content", "title": "Content" },
+
+              { "nameField": "action", "title": "Action" }
+            ]
+          }
+        },
+        "confirmMove": {
+          "title": "Confirmation Move Position Item",
+          "desc": "Are you sure to move the item <strong>{name}</strong>?",
+          "button": {
+            "yes": "Yes",
+            "no": "Cancel"
+          }
+        },
+        "copyOtherPeriod": {
+          "title": "copy other period data",
+          "info": "Select a period item as the data source."
+        }
+      }
+    },
+    "performance-period": {
+      "card": {
+        "title": "Performance Period"
+      },
+      "modal": {
+        "add": {
+          "title": "Performance Period",
+          "form": {
+            "name": "Performance Period",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "desc": "Information"
+          }
+        }
+      },
+      "table": {
+        "tableHead": [
+          { "nameField": "name", "title": "Performance Period" },
+          { "nameField": "startDate", "title": "Start Date" },
+          { "nameField": "endDate", "title": "End Date" },
+          { "nameField": "action", "title": "Action" }
+        ]
+      }
+    },
+    "user-roles": {
+      "card": {
+        "title": "User Roles and Accounts",
+        "desc": {
+          "title1": "This page is used to manage user roles and accounts in the system. Roles determine the user's access rights to available features. User accounts include login information and their association with employees in the system. Make sure the role and account settings are in accordance with the organization's needs to maintain security and ease of access."
+        }
+      },
+      "modal": {
+        "select": {
+          "title": "Select an employee account as a member of this role",
+          "subtitle": "Selected Role: <b>HR Payroll Role</b>",
+          "subtitle2": {
+            "member": "Member",
+            "notMember": "Non-Members"
+          }
+        }
+      },
+      "tables": {
+        "userRole": {
+          "title": "User Role",
+          "tableHead": [
+            { "nameField": "Name", "title": "Name" },
+            { "nameField": "Description", "title": "Description" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+
+        "userAccount": {
+          "title": "User Login Account",
+          "tableHead": [
+            { "nameField": "Email", "title": "Email" },
+            {
+              "nameField": "LinkedtoEmployee",
+              "title": "Connected to Employee"
+            },
+            { "nameField": "IsExternal", "title": "External Account" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        }
+      },
+      "create": {
+        "userRole": {
+          "title": "Add Data Role",
+          "form": {
+            "name": "Name",
+            "desc": "Description",
+            "pageDefault": "Default Page After Login",
+            "adminPermission": "Per-page Access Rights as Admin",
+            "employeePermission": "Per-page Access Rights as Employee"
+          }
+        },
+        "userAccount": {
+          "title": " Data Role",
+          "form": {
+            "email": "Email Address",
+            "password": "Password (will override existing password)"
+          }
+        },
+        "tables": {
+          "adminPermission": {
+            "tableHead": [
+              { "nameField": "MenuCaption", "title": "Nama" },
+              { "nameField": "permission", "title": "Give Access ?" }
+            ]
+          },
+          "employeePermission": {
+            "tableHead": [
+              { "nameField": "MenuCaption", "title": "Name" },
+              { "nameField": "permission", "title": "Give Access ?" }
+            ]
+          }
+        }
+      },
+      "edit": {
+        "userRole": {
+          "title": "Edit Data Role",
+          "form": {
+            "name": "Name",
+            "desc": "Description",
+            "pageDefault": "Default Page After Login",
+            "adminPermission": "Per-page Access Rights as Admin",
+            "employeePermission": "Per-page Access Rights as Employee"
+          }
+        },
+        "tables": {
+          "adminPermission": {
+            "tableHead": [
+              { "nameField": "MenuCaption", "title": "Nama" },
+              { "nameField": "permission", "title": "Give Access ?" }
+            ]
+          },
+          "employeePermission": {
+            "tableHead": [
+              { "nameField": "MenuCaption", "title": "Name" },
+              { "nameField": "permission", "title": "Give Access ?" }
+            ]
+          }
+        }
+      }
+    },
+    "general-news": {
+      "card": {
+        "title": "General News Data",
+        "desc": "This page is used to manage general news related to policies and important information within the organization. Make sure the news added is always relevant and up-to-date to ensure effective communication for all users."
+      },
+      "table": {
+        "tableHead": [
+          { "nameField": "Title", "title": "Title" },
+          { "nameField": "CreatedOn", "title": "Start Date" },
+          { "nameField": "action", "title": "Action" }
+        ]
+      },
+      "create": {
+        "title": "Add General News",
+        "form": {
+          "title": "Title",
+          "abstract": "Abstract",
+          "content": "Content News"
+        }
+      },
+      "edit": {
+        "title": "Edit Berita Umum",
+        "form": {
+          "title": "Title",
+          "abstract": "Abstract",
+          "content": "Content News"
+        }
+      }
+    }
+  }
+}

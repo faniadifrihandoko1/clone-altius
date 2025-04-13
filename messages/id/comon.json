@@ -1,0 +1,379 @@
+{
+  "comon": {
+    "modal": {
+      "delete": {
+        "title": "Hapus Data",
+        "message": "Apakah anda yakin ingin menghapus data <strong>{name}</strong>?",
+        "button": {
+          "yes": "Hapus",
+          "no": "Batal"
+        }
+      },
+      "edit": {
+        "title": "Edit Data {name}",
+        "button": {
+          "yes": "Simpan",
+          "no": "Batal"
+        }
+      },
+      "add": {
+        "title": "Tambah Data {name}",
+        "button": {
+          "title": "Tambah",
+          "yes": "Simpan",
+          "no": "Batal"
+        }
+      }
+    },
+    "tables": {
+      "action": {
+        "add": "Tambah",
+        "sort": "Pengurutan",
+        "delete": "Hapus",
+        "edit": "Edit",
+        "select": "Pilih Pegawai"
+      }
+    },
+    "textField": {
+      "label": "Search {name}",
+      "placeholder": "Ketik {label}.."
+    },
+    "textFieldSearch": {
+      "placeholder": "Cari.."
+    },
+    "validation": {
+      "required": "Field ini wajib diisi."
+    },
+    "autocomplete": {
+      "placeholder": "-- pilih --"
+    },
+    "pagination": {
+      "entriesText": "Menampilkan {startEntry} sampai {endEntry} dari {totalEntries} data",
+      "limit": "Per Halaman"
+    },
+    "button": {
+      "buttonAdd": "Tambah",
+      "buttonEdit": "Edit",
+      "buttonDelete": "Hapus",
+      "buttonSave": "Simpan",
+      "buttonCancel": "Batal",
+      "buttonEmployee": "Pegawai",
+      "buttonSelect": "Pilih",
+      "buttonLabel": "Label"
+    },
+    "menu": [
+      {
+        "idmenu": "dashboard-001",
+        "path": "/admin/dashboard",
+        "name": "Dasbor",
+        "icon": "material-symbols-light:dashboard",
+        "is_locked_for_trial": false
+      },
+      {
+        "idmenu": "organization-002",
+        "path": "/org",
+        "name": "Organisasi",
+        "icon": "material-symbols-light:business-center",
+        "is_locked_for_trial": false,
+        "children": [
+          {
+            "idmenu": "performance-period-003",
+            "path": "/org/performance-period",
+            "name": "Data Periode Kinerja",
+            "icon": "material-symbols-light:calendar-month",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "org-structure-004",
+            "path": "/org/organizational-structure",
+            "name": "Struktur Organisasi",
+            "icon": "material-symbols-light:account-tree",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "user-roles-005",
+            "path": "/org/user-roles-and-accounts",
+            "name": "Peran & Akun Pengguna",
+            "icon": "material-symbols-light:people",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "general-news-006",
+            "path": "/org/general-news",
+            "name": "Berita Umum",
+            "icon": "material-symbols-light:article",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "import-biodata-007",
+            "path": "/org/import-biodata",
+            "name": "Impor Biodata",
+            "icon": "material-symbols-light:upload",
+            "is_locked_for_trial": false
+          }
+        ]
+      },
+      {
+        "idmenu": "recruitment-admin-008",
+        "path": "/recruitment-admin",
+        "name": "Rekrutmen (Admin)",
+        "icon": "material-symbols-light:work",
+        "is_locked_for_trial": false,
+        "children": [
+          {
+            "idmenu": "job-request-009",
+            "path": "/recruitment-admin/job-request",
+            "name": "Permintaan Pekerjaan",
+            "icon": "material-symbols-light:request-quote",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "candidate-list-010",
+            "path": "/recruitment-admin/candidate-list",
+            "name": "Daftar Kandidat",
+            "icon": "material-symbols-light:people-alt",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "template-pkwt-011",
+            "path": "/recruitment-admin/pkwt-template",
+            "name": "Template PKWT",
+            "icon": "material-symbols-light:description",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "new-employee-012",
+            "path": "/recruitment-admin/generate-new-employee",
+            "name": "Buat Karyawan Baru",
+            "icon": "material-symbols-light:person-add",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "offering-letter-template-013",
+            "path": "/recruitment-admin/offering-letter-template",
+            "name": "Template Surat Penawaran",
+            "icon": "material-symbols-light:email",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "code-of-conduct-template-014",
+            "path": "/recruitment-admin/code-of-conduct-template",
+            "name": "Template Kode Etik",
+            "icon": "material-symbols-light:rule",
+            "is_locked_for_trial": false
+          }
+        ]
+      },
+      {
+        "idmenu": "job-profile-015",
+        "path": "/job-profile",
+        "name": "Profil Jabatan",
+        "icon": "material-symbols-light:badge",
+        "is_locked_for_trial": false,
+        "children": [
+          {
+            "idmenu": "master-data-profile-016",
+            "path": "/job-profile/master-data-profile",
+            "name": "Master Data Profil Jabatan",
+            "icon": "material-symbols-light:folder",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "competency-dictionary-017",
+            "path": "/job-profile/competency-dictionary",
+            "name": "Kamus Kompetensi",
+            "icon": "material-symbols-light:book",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "competency-profile-018",
+            "path": "/job-profile/competency-profile",
+            "name": "Profile Kompetensi",
+            "icon": "material-symbols:quick-reference-all",
+            "is_locked_for_trial": false
+          },
+          {
+            "idmenu": "evaluator-identification-018",
+            "path": "/job-profile/evaluator-identification",
+            "name": "Identifikasi Penilai",
+            "icon": "material-symbols-light:person-search",
+            "is_locked_for_trial": false
+          },
+
+          {
+            "idmenu": "competency-assessment-recap-019",
+            "path": "/job-profile/competency-assessment-recap",
+            "name": "Rekap Nilai Kompetensi",
+            "icon": "carbon:summary-kpi",
+            "is_locked_for_trial": false
+          }
+        ]
+      },
+      {
+        "idmenu": "admin-settings-020",
+        "path": "/admin/settings",
+        "name": "Pengaturan",
+        "icon": "material-symbols-light:settings",
+        "is_locked_for_trial": false,
+        "children": [
+          {
+            "idmenu": "general-hr-021",
+            "path": "/admin/settings/general-hr",
+            "name": "HR Umum",
+            "icon": "material-symbols-light:group",
+            "is_locked_for_trial": false,
+            "children": [
+              {
+                "idmenu": "category-022",
+                "path": "/admin/settings/general-hr/category",
+                "name": "Kategori",
+                "icon": "material-symbols-light:category",
+                "is_locked_for_trial": false
+              },
+              {
+                "idmenu": "references-023",
+                "path": "/admin/settings/general-hr/references",
+                "name": "Referensi",
+                "icon": "material-symbols-light:menu-book",
+                "is_locked_for_trial": false
+              },
+              {
+                "idmenu": "master-data-hr-024",
+                "path": "/admin/settings/general-hr/master-data",
+                "name": "Data Master HR",
+                "icon": "material-symbols-light:database",
+                "is_locked_for_trial": false
+              }
+            ]
+          },
+          {
+            "idmenu": "performance-foundation-025",
+            "path": "/settings/performance-foundation",
+            "name": "Dasar Kinerja",
+            "icon": "material-symbols-light:flag",
+            "is_locked_for_trial": false,
+            "children": [
+              {
+                "idmenu": "period-element-026",
+                "path": "/settings/performance-foundation/period-element",
+                "name": "Elemen Periode",
+                "icon": "material-symbols-light:event",
+                "is_locked_for_trial": false
+              },
+              {
+                "idmenu": "element-type-027",
+                "path": "/settings/performance-foundation/element-type",
+                "name": "Jenis Elemen",
+                "icon": "material-symbols-light:list-alt",
+                "is_locked_for_trial": false
+              },
+              {
+                "idmenu": "scoring-method-028",
+                "path": "/settings/performance-foundation/scoring-method",
+                "name": "Metode Penilaian",
+                "icon": "material-symbols-light:bar-chart",
+                "is_locked_for_trial": false
+              },
+              {
+                "idmenu": "measurement-unit-029",
+                "path": "/settings/performance-foundation/measurement-unit",
+                "name": "Unit Pengukuran",
+                "icon": "material-symbols-light:straighten",
+                "is_locked_for_trial": false
+              },
+              {
+                "idmenu": "assessment-weight-030",
+                "path": "/settings/performance-foundation/assessment-weight",
+                "name": "Bobot Penilaian",
+                "icon": "material-symbols-light:balance",
+                "is_locked_for_trial": false
+              },
+              {
+                "idmenu": "performance-predicate-031",
+                "path": "/settings/performance-foundation/performance-predicate",
+                "name": "Predikat Kinerja",
+                "icon": "material-symbols-light:stars",
+                "is_locked_for_trial": false
+              }
+            ]
+          },
+          {
+            "path": "/admin/settings/scorecard-access",
+            "name": "Akses Scorecard Organisasi",
+            "icon": "material-symbols-light:score",
+            "is_locked_for_trial": false,
+            "idmenu": "scorecard-access-032"
+          },
+          {
+            "path": "/admin/settings/default-data",
+            "name": "Data Default",
+            "icon": "material-symbols-light:dataset",
+            "is_locked_for_trial": false,
+            "idmenu": "default-data-033"
+          },
+          {
+            "path": "/admin/settings/payroll-settings",
+            "name": "Pengaturan Penggajian",
+            "icon": "material-symbols-light:attach-money",
+            "is_locked_for_trial": false,
+            "idmenu": "payroll-settings-034"
+          },
+          {
+            "path": "/admin/settings/approval-level",
+            "name": "Tingkat Persetujuan",
+            "icon": "material-symbols-light:approval",
+            "is_locked_for_trial": false,
+            "idmenu": "approval-level-035"
+          },
+          {
+            "path": "/admin/settings/accurate-settings",
+            "name": "Pengaturan Accurate",
+            "icon": "material-symbols-light:settings",
+            "is_locked_for_trial": false,
+            "idmenu": "accurate-settings-036"
+          },
+          {
+            "path": "/admin/settings/claim-balance",
+            "name": "Saldo Klaim",
+            "icon": "material-symbols-light:account-balance-wallet",
+            "is_locked_for_trial": false,
+            "idmenu": "claim-balance-037"
+          },
+          {
+            "path": "/admin/settings/leave-balance-adjustment",
+            "name": "Penyesuaian Saldo Cuti",
+            "icon": "material-symbols-light:event-available",
+            "is_locked_for_trial": false,
+            "idmenu": "leave-balance-adjustment-038"
+          },
+          {
+            "path": "/admin/settings/payroll-location-settings",
+            "name": "Pengaturan Lokasi Penggajian",
+            "icon": "material-symbols-light:location-on",
+            "is_locked_for_trial": false,
+            "idmenu": "payroll-location-settings-039"
+          },
+          {
+            "path": "/admin/settings/payroll-formula",
+            "name": "Formula Penggajian",
+            "icon": "material-symbols-light:functions",
+            "is_locked_for_trial": false,
+            "idmenu": "payroll-formula-040"
+          }
+        ]
+      }
+    ],
+    "custom-component": {
+      "select-member": {
+        "title": {
+          "members": "Anggota",
+          "non-members": "Non Anggota"
+        },
+        "tooltip": {
+          "arrowBack": "Pindahkan semua ke kiri",
+          "arrowForward": "Pindahkan semua ke kanan"
+        }
+      }
+    }
+  }
+}

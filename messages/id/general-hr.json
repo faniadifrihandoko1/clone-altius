@@ -1,0 +1,214 @@
+{
+  "general-hr": {
+    "category": {
+      "card": {
+        "title": "Kategori Data",
+        "desc": {
+          "title1": "Berikut adalah data master dari berbagai kategori yang terkait dengan catatan data karyawan (seperti status pekerjaan, hubungan kekeluargaan, dan sebagainya). Pastikan Anda melengkapi data ini sebelum menambahkan data karyawan ke dalam sistem.",
+          "title2": "Anda dapat mengubahnya kembali kapan saja diperlukan, tetapi harap diperhatikan bahwa hal ini dapat memengaruhi data karyawan yang sudah ada di dalam sistem, jadi harap berhati-hati."
+        }
+      },
+      "tables": {
+        "employmentStatus": {
+          "title": "Status Kepegawaian",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "relationshipType": {
+          "title": "Jenis Hubungan Kekerabatan",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "educationLevel": {
+          "title": "Tingkat Pendidikan",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "terminationReason": {
+          "title": "Alasan Berhenti Kerja",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "workUnitLevel": {
+          "title": "Level Unit Kerja",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "identityType": {
+          "title": "Tipe Identitas",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "religion": {
+          "title": "Agama",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        }
+      }
+    },
+    "references": {
+      "card": {
+        "title": "Data Referensi",
+        "desc": {
+          "title1": "Berikut ini adalah data induk beragam referensi terkait data-data pendukung informasi kepegawaian yang bersifat umum. Mohon pastikan anda melengkapi data-data ini terlebih dahulu saat pertama kali memulai sistem.",
+          "title2": "Anda dapat mengubahnya kembali setiap saat dibutuhkan, namun perlu diketahui bahwa hal tersebut dapat mempengaruhi data pegawai yang sudah sebelumnya ada di dalam sistem, jadi harap agar berhati-hati."
+        }
+      },
+      "tables": {
+        "officeLocation": {
+          "title": "Lokasi Kantor",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "latitude", "title": "Garis Lintang" },
+            { "nameField": "longitude", "title": "Garis Bujur" },
+            { "nameField": "radius", "title": "Jarak Radius Absen (M)" },
+            { "nameField": "timezone", "title": "Zona Waktu" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "holidayMaster": {
+          "title": "Master Hari Libur",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "date", "title": "Tanggal" },
+            { "nameField": "jointLeave", "title": "Cuti Bersama?" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "employeeAssetType": {
+          "title": "Jenis Aset Pegawai",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "documentType": {
+          "title": "Jenis Dokumen",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "employeeSkill": {
+          "title": "Keahlian Pegawai",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "generalSkillLevel": {
+          "title": "Level Kemampuan Umum",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "employeeComplaintType": {
+          "title": "Jenis Keluhan Pegawai",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "specialSkillLevel": {
+          "title": "Level Keahlian Khusus Pegawai",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "complaintHandlingStatus": {
+          "title": "Status Penanganan Keluhan Pegawai",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "positionLevel": {
+          "title": "Level Posisi",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "division": {
+          "title": "Divisi",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "department": {
+          "title": "Departemen",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        }
+      }
+    },
+    "masterData": {
+      "card": {
+        "title": "Data Master HRIS",
+        "desc": {
+          "title1": "Berikut ini adalah data induk yang berisi berbagai referensi terkait informasi kepegawaian yang bersifat HR. Mohon pastikan Anda melengkapi data ini terlebih dahulu saat pertama kali menggunakan sistem.",
+          "title2": "Anda dapat mengubahnya kapan saja jika diperlukan. Namun, harap diperhatikan bahwa perubahan ini dapat mempengaruhi data pegawai yang sudah ada dalam sistem. Mohon berhati-hati dalam melakukan perubahan."
+        }
+      },
+      "tables": {
+        "leaveTypes": {
+          "title": "Jenis Cuti",
+          "tableHead": [
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "quota", "title": "Kuota" },
+            { "nameField": "annualLeave", "title": "Cuti Tahunan?" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "overtimeTypes": {
+          "title": "Jenis Lembur",
+          "tableHead": [
+            { "nameField": "expand", "title": "" },
+            { "nameField": "position", "title": "Jabatan" },
+            { "nameField": "salary", "title": "Gaji" },
+            { "nameField": "value", "title": "Nilai" },
+            { "nameField": "action", "title": "Aksi" }
+          ],
+          "tableHeadChildren": [
+            { "nameField": "workingHours", "title": "Jam Kerja" },
+            { "nameField": "value", "title": "Nilai" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        },
+        "shiftMaster": {
+          "title": "Master Shift",
+          "tableHead": [
+            { "nameField": "expand", "title": "" },
+            { "nameField": "name", "title": "Nama" },
+            { "nameField": "action", "title": "Aksi" }
+          ],
+          "tableHeadChildren": [
+            { "nameField": "day", "title": "Hari" },
+            { "nameField": "clockIn", "title": "Jam Masuk" },
+            { "nameField": "clockOut", "title": "Jam Keluar" },
+            { "nameField": "action", "title": "Aksi" }
+          ]
+        }
+      }
+    }
+  }
+}

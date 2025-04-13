@@ -1,0 +1,133 @@
+{
+  "recruitment": {
+    "job-request": {
+      "card": {
+        "title": "Permintaan Tenaga Kerja"
+      },
+      "table": {
+        "tableHead": [
+          { "nameField": "SubmissionNumber", "title": "Nomor Pengajuan" },
+          { "nameField": "DepartementName", "title": "Departemen" },
+          {
+            "nameField": "SubmissionTypeDescription",
+            "title": "Jenis Pengajuan"
+          },
+          { "nameField": "JobName", "title": "Untuk Jabatan" },
+          { "nameField": "SubmissionStatusDescription", "title": "Status" },
+          { "nameField": "action", "title": "Aksi" }
+        ],
+        "tableHeadChildren": [
+          {
+            "nameField": "ProspectiveEmployeeName",
+            "title": "Nama Calon Pegawai"
+          },
+          {
+            "nameField": "ProspectiveEmployeeIdentityNumber",
+            "title": "Nomor Identitas"
+          },
+          {
+            "nameField": "InterviewDate",
+            "title": "Tanggal Wawancara"
+          },
+          { "nameField": "InterviewFormTypeName", "title": "Wawancara Ke" },
+          { "nameField": "InterViewerName", "title": "Pewawancara" },
+          { "nameField": "InterviewFormStatus", "title": "Status" }
+        ]
+      },
+      "form": {
+        "candidatEmployee": "Calon Pegawai",
+        "identity": "Nomor Identitas",
+        "address": "Alamat",
+        "departemen": "Departemen",
+        "forNeeds": "Untuk Kebutuhan",
+        "interviewer": "Diwawancara oleh",
+        "interviewDate": "Tanggal Wawancara",
+        "interviewTo": "Wawancara Ke",
+        "noteInterview": "Catatan Wawancara"
+      },
+      "create": {
+        "title": "Wawancara Calon Pegawai"
+      }
+    },
+    "candidat-employee": {
+      "card": {
+        "title": "Calon Pegawai"
+      },
+      "tab": {
+        "tab-data": "Data",
+        "tab-condition": "Persyaratan",
+        "tab-task": "Tugas & Tanggung Jawab"
+      },
+      "form": {
+        "firstName": "Nama Depan",
+        "lastName": "Nama Belakang",
+        "Email": "Email",
+        "IdentityNumber": "Nomor Identitas",
+        "MobilePhoneNumber": "Nomor Handphone",
+        "PlaceOfBirth": "Tempat Lahir",
+        "BirthDate": "Tanggal Lahir",
+        "IdentityType": "Tipe Identitas",
+        "TerminatedDate": "Berakhir Identitas",
+        "IdentityAddress": "Alamat Identitas",
+        "HomeAddress": "Alamat Rumah",
+        "Religion": "Agama",
+        "EmpBloodType": "Golongan Darah",
+        "EmpMaritalStatus": "Status Perkawinan",
+        "Gender": "Jenis Kelamin",
+        "Departement": "Departemen",
+        "CheckAssessment": "Centang Assessment"
+      },
+      "table": {
+        "tableHead": [
+          { "nameField": "FullName", "title": "Nama" },
+          { "nameField": "IdentityNumber", "title": "Nomor Identitas" },
+          {
+            "nameField": "JobName",
+            "title": "Untuk Jabatan"
+          },
+          {
+            "nameField": "ProspectiveEmployeeStatusName",
+            "title": "Status Calon"
+          },
+
+          { "nameField": "action", "title": "Aksi" }
+        ]
+      }
+    },
+    "pkwt-template": {
+      "card": {
+        "title": "Template PKWT"
+      }
+    },
+    "generate-new-employee": {
+      "card": {
+        "title": "Generate Pegawai Baru"
+      },
+      "table": {
+        "tableHead": [
+          { "nameField": "SubmissionNumber", "title": "Nomor Pengajuan" },
+          { "nameField": "JobName", "title": "Untuk Jabatan" },
+          {
+            "nameField": "FullName",
+            "title": "Nama"
+          },
+          {
+            "nameField": "IdentityNumber",
+            "title": "No Identitas"
+          },
+          { "nameField": "LaborDemandStatusName", "title": "Status Pengajuan" }
+        ]
+      }
+    },
+    "offering-letter-template": {
+      "card": {
+        "title": "Template Offering Letter"
+      }
+    },
+    "conduct-template": {
+      "card": {
+        "title": "Template Code of Conduct"
+      }
+    }
+  }
+}

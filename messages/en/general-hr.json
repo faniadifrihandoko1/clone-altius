@@ -1,0 +1,214 @@
+{
+  "general-hr": {
+    "category": {
+      "card": {
+        "title": "Data Category",
+        "desc": {
+          "title1": "The following is the master data of various categories related to an employee's data record (such as employment status, kinship and so on). Please make sure you complete this data before adding employee data to the system.",
+          "title2": "You can change it back whenever needed, but please be aware that this may affect employee data that is already in the system, so please be careful."
+        }
+      },
+      "tables": {
+        "employmentStatus": {
+          "title": "Employment Status",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "relationshipType": {
+          "title": "Relationship Type",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "educationLevel": {
+          "title": "Education Level",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "terminationReason": {
+          "title": "Termination Reason",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "workUnitLevel": {
+          "title": "Work Unit Level",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "identityType": {
+          "title": "Identity Type",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "religion": {
+          "title": "Religion",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        }
+      }
+    },
+    "references": {
+      "card": {
+        "title": "References Data",
+        "desc": {
+          "title1": "Below is the master data containing various references related to general employee information support data. Please ensure you complete this data first when starting the system for the first time.",
+          "title2": "You can modify it anytime as needed, but please be aware that doing so may affect existing employee data in the system. Therefore, proceed with caution."
+        }
+      },
+      "tables": {
+        "officeLocation": {
+          "title": "Office Location",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "latitude", "title": "Latitude" },
+            { "nameField": "longitude", "title": "Longitude" },
+            { "nameField": "radius", "title": "Absent Radius Distance (M)" },
+            { "nameField": "timezone", "title": "Timezone" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "holidayMaster": {
+          "title": "Holiday Master",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "date", "title": "Date" },
+            { "nameField": "jointLeave", "title": "Collective Leave?" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "employeeAssetType": {
+          "title": "Employee Asset Type",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "documentType": {
+          "title": "Document Type",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "employeeSkill": {
+          "title": "Employee Skill",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "generalSkillLevel": {
+          "title": "General Skill Level",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "employeeComplaintType": {
+          "title": "Employee Complaint Type",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "specialSkillLevel": {
+          "title": "Special Skill Level",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "complaintHandlingStatus": {
+          "title": "Complaint Handling Status",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "positionLevel": {
+          "title": "Position Level",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "division": {
+          "title": "Division",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "department": {
+          "title": "Department",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        }
+      }
+    },
+    "masterData": {
+      "card": {
+        "title": "Data Master HRIS",
+        "desc": {
+          "title1": "The following is the master data of various references related to supporting data for HR employee information. Please make sure you complete this data first when you first start the system.",
+          "title2": "You can change it back whenever needed, but please be aware that this may affect employee data that is already in the system, so please be careful."
+        }
+      },
+      "tables": {
+        "leaveTypes": {
+          "title": "Leave Types",
+          "tableHead": [
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "quota", "title": "Quota" },
+            { "nameField": "annualLeave", "title": "Annual Leave?" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "overtimeTypes": {
+          "title": "Overtime Types",
+          "tableHead": [
+            { "nameField": "expand", "title": "" },
+            { "nameField": "position", "title": "Position" },
+            { "nameField": "salary", "title": "Salary" },
+            { "nameField": "value", "title": "Value" },
+            { "nameField": "action", "title": "Action" }
+          ],
+          "tableHeadChildren": [
+            { "nameField": "workingHours", "title": "Working Hours" },
+            { "nameField": "value", "title": "Value" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        },
+        "shiftMaster": {
+          "title": "Shift Master",
+          "tableHead": [
+            { "nameField": "expand", "title": "" },
+            { "nameField": "name", "title": "Name" },
+            { "nameField": "action", "title": "Action" }
+          ],
+          "tableHeadChildren": [
+            { "nameField": "day", "title": "Day" },
+            { "nameField": "clockIn", "title": "Clock In" },
+            { "nameField": "clockOut", "title": "Clock Out" },
+            { "nameField": "action", "title": "Action" }
+          ]
+        }
+      }
+    }
+  }
+}
