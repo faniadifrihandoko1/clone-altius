@@ -128,7 +128,7 @@ const FormData = ({ form }: FormDataProps) => {
 
       <Grid size={6}>
         <CustomRadioGroup
-          name="data.gender"
+          name="data.Sex"
           control={control}
           label={t("Gender")}
           row
